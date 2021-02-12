@@ -12,7 +12,6 @@ Pod::Spec.new do |s|
         :tag => s.version.to_s
     }
     s.source_files            = 'TSpoddemo/**/*.swift/.h/.m'
-  s.public_header_files = 'TSpoddemo/**/*.h'
     s.requires_arc            = true
     s.ios.deployment_target   = '13.0'
     s.swift_version           = '4.2'
