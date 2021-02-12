@@ -12,9 +12,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         debugPrint("helloooooooo")
-        let TSpoddemoView = TSpoddemo(frame: self.view.bounds)
+        let TView = TSpopddemoView(frame: self.view.bounds)
                 
-        self.view.addSubview(TSpoddemoView)
+        self.view.addSubview(TView)
     }
 
 

@@ -13,7 +13,7 @@
 		150F8C4125D69F3A006B2BFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150F8C3F25D69F3A006B2BFF /* Main.storyboard */; };
 		150F8C4325D69F3B006B2BFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150F8C4225D69F3B006B2BFF /* Assets.xcassets */; };
 		150F8C4625D69F3B006B2BFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150F8C4425D69F3B006B2BFF /* LaunchScreen.storyboard */; };
-		150F8C5425D6A012006B2BFF /* TSpoddemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150F8C5325D6A012006B2BFF /* TSpoddemo.swift */; };
+		150F8CBE25D6B318006B2BFF /* TSpopddemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150F8CBD25D6B318006B2BFF /* TSpopddemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		150F8C4225D69F3B006B2BFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		150F8C4525D69F3B006B2BFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		150F8C4725D69F3B006B2BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		150F8C5325D6A012006B2BFF /* TSpoddemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSpoddemo.swift; sourceTree = "<group>"; };
+		150F8CBD25D6B318006B2BFF /* TSpopddemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSpopddemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +42,6 @@
 		150F8C2D25D69F3A006B2BFF = {
 			isa = PBXGroup;
 			children = (
-				150F8C5325D6A012006B2BFF /* TSpoddemo.swift */,
 				150F8C3825D69F3A006B2BFF /* TSpoddemo */,
 				150F8C3725D69F3A006B2BFF /* Products */,
 			);
@@ -66,6 +65,7 @@
 				150F8C4225D69F3B006B2BFF /* Assets.xcassets */,
 				150F8C4425D69F3B006B2BFF /* LaunchScreen.storyboard */,
 				150F8C4725D69F3B006B2BFF /* Info.plist */,
+				150F8CBD25D6B318006B2BFF /* TSpopddemoView.swift */,
 			);
 			path = TSpoddemo;
 			sourceTree = "<group>";
@@ -141,7 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				150F8C3E25D69F3A006B2BFF /* ViewController.swift in Sources */,
-				150F8C5425D6A012006B2BFF /* TSpoddemo.swift in Sources */,
+				150F8CBE25D6B318006B2BFF /* TSpopddemoView.swift in Sources */,
 				150F8C3A25D69F3A006B2BFF /* AppDelegate.swift in Sources */,
 				150F8C3C25D69F3A006B2BFF /* SceneDelegate.swift in Sources */,
 			);
