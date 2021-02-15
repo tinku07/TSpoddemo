@@ -15,6 +15,7 @@
 		150F8C4625D69F3B006B2BFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150F8C4425D69F3B006B2BFF /* LaunchScreen.storyboard */; };
 		150F8CBE25D6B318006B2BFF /* TSpopddemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150F8CBD25D6B318006B2BFF /* TSpopddemoView.swift */; };
 		152799B825DA51E000FDE360 /* NewClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152799B725DA51E000FDE360 /* NewClass.swift */; };
+		152799CA25DA601700FDE360 /* TSpoddemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152799C925DA601700FDE360 /* TSpoddemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		150F8C4725D69F3B006B2BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		150F8CBD25D6B318006B2BFF /* TSpopddemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSpopddemoView.swift; sourceTree = "<group>"; };
 		152799B725DA51E000FDE360 /* NewClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewClass.swift; sourceTree = "<group>"; };
+		152799C925DA601700FDE360 /* TSpoddemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSpoddemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				150F8C4725D69F3B006B2BFF /* Info.plist */,
 				150F8CBD25D6B318006B2BFF /* TSpopddemoView.swift */,
 				152799B725DA51E000FDE360 /* NewClass.swift */,
+				152799C925DA601700FDE360 /* TSpoddemo.swift */,
 			);
 			path = TSpoddemo;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 				150F8C3E25D69F3A006B2BFF /* ViewController.swift in Sources */,
 				150F8CBE25D6B318006B2BFF /* TSpopddemoView.swift in Sources */,
 				150F8C3A25D69F3A006B2BFF /* AppDelegate.swift in Sources */,
+				152799CA25DA601700FDE360 /* TSpoddemo.swift in Sources */,
 				152799B825DA51E000FDE360 /* NewClass.swift in Sources */,
 				150F8C3C25D69F3A006B2BFF /* SceneDelegate.swift in Sources */,
 			);
