@@ -16,7 +16,35 @@
 		150F8CBE25D6B318006B2BFF /* TSpopddemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150F8CBD25D6B318006B2BFF /* TSpopddemoView.swift */; };
 		152799B825DA51E000FDE360 /* NewClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152799B725DA51E000FDE360 /* NewClass.swift */; };
 		152799CA25DA601700FDE360 /* TSpoddemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152799C925DA601700FDE360 /* TSpoddemo.swift */; };
+		1533AFF125DBED8E0017D2C6 /* SecretFm.h in Headers */ = {isa = PBXBuildFile; fileRef = 1533AFEF25DBED8E0017D2C6 /* SecretFm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1533AFF425DBED8E0017D2C6 /* SecretFm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1533AFED25DBED8E0017D2C6 /* SecretFm.framework */; };
+		1533AFF525DBED8E0017D2C6 /* SecretFm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1533AFED25DBED8E0017D2C6 /* SecretFm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1533AFFC25DBEDA80017D2C6 /* MysecretFm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1533AFFB25DBEDA80017D2C6 /* MysecretFm.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1533AFF225DBED8E0017D2C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 150F8C2E25D69F3A006B2BFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1533AFEC25DBED8E0017D2C6;
+			remoteInfo = SecretFm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1533AFF925DBED8E0017D2C6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1533AFF525DBED8E0017D2C6 /* SecretFm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		150F8C3625D69F3A006B2BFF /* TSpoddemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSpoddemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,10 +58,22 @@
 		150F8CBD25D6B318006B2BFF /* TSpopddemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSpopddemoView.swift; sourceTree = "<group>"; };
 		152799B725DA51E000FDE360 /* NewClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewClass.swift; sourceTree = "<group>"; };
 		152799C925DA601700FDE360 /* TSpoddemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSpoddemo.swift; sourceTree = "<group>"; };
+		1533AFED25DBED8E0017D2C6 /* SecretFm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SecretFm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1533AFEF25DBED8E0017D2C6 /* SecretFm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecretFm.h; sourceTree = "<group>"; };
+		1533AFF025DBED8E0017D2C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1533AFFB25DBEDA80017D2C6 /* MysecretFm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysecretFm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		150F8C3325D69F3A006B2BFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1533AFF425DBED8E0017D2C6 /* SecretFm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1533AFEA25DBED8E0017D2C6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				150F8C3825D69F3A006B2BFF /* TSpoddemo */,
+				1533AFEE25DBED8E0017D2C6 /* SecretFm */,
 				150F8C3725D69F3A006B2BFF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				150F8C3625D69F3A006B2BFF /* TSpoddemo.app */,
+				1533AFED25DBED8E0017D2C6 /* SecretFm.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,6 +104,7 @@
 		150F8C3825D69F3A006B2BFF /* TSpoddemo */ = {
 			isa = PBXGroup;
 			children = (
+				1533AFAA25DBE51E0017D2C6 /* Framework */,
 				150F8C3925D69F3A006B2BFF /* AppDelegate.swift */,
 				150F8C3B25D69F3A006B2BFF /* SceneDelegate.swift */,
 				150F8C3D25D69F3A006B2BFF /* ViewController.swift */,
@@ -76,7 +119,35 @@
 			path = TSpoddemo;
 			sourceTree = "<group>";
 		};
+		1533AFAA25DBE51E0017D2C6 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		1533AFEE25DBED8E0017D2C6 /* SecretFm */ = {
+			isa = PBXGroup;
+			children = (
+				1533AFEF25DBED8E0017D2C6 /* SecretFm.h */,
+				1533AFF025DBED8E0017D2C6 /* Info.plist */,
+				1533AFFB25DBEDA80017D2C6 /* MysecretFm.swift */,
+			);
+			path = SecretFm;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1533AFE825DBED8E0017D2C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1533AFF125DBED8E0017D2C6 /* SecretFm.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		150F8C3525D69F3A006B2BFF /* TSpoddemo */ = {
@@ -86,15 +157,35 @@
 				150F8C3225D69F3A006B2BFF /* Sources */,
 				150F8C3325D69F3A006B2BFF /* Frameworks */,
 				150F8C3425D69F3A006B2BFF /* Resources */,
+				1533AFF925DBED8E0017D2C6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1533AFF325DBED8E0017D2C6 /* PBXTargetDependency */,
 			);
 			name = TSpoddemo;
 			productName = TSpoddemo;
 			productReference = 150F8C3625D69F3A006B2BFF /* TSpoddemo.app */;
 			productType = "com.apple.product-type.application";
+		};
+		1533AFEC25DBED8E0017D2C6 /* SecretFm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1533AFF625DBED8E0017D2C6 /* Build configuration list for PBXNativeTarget "SecretFm" */;
+			buildPhases = (
+				1533AFE825DBED8E0017D2C6 /* Headers */,
+				1533AFE925DBED8E0017D2C6 /* Sources */,
+				1533AFEA25DBED8E0017D2C6 /* Frameworks */,
+				1533AFEB25DBED8E0017D2C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecretFm;
+			productName = SecretFm;
+			productReference = 1533AFED25DBED8E0017D2C6 /* SecretFm.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -107,6 +198,10 @@
 				TargetAttributes = {
 					150F8C3525D69F3A006B2BFF = {
 						CreatedOnToolsVersion = 12.4;
+					};
+					1533AFEC25DBED8E0017D2C6 = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -124,6 +219,7 @@
 			projectRoot = "";
 			targets = (
 				150F8C3525D69F3A006B2BFF /* TSpoddemo */,
+				1533AFEC25DBED8E0017D2C6 /* SecretFm */,
 			);
 		};
 /* End PBXProject section */
@@ -136,6 +232,13 @@
 				150F8C4625D69F3B006B2BFF /* LaunchScreen.storyboard in Resources */,
 				150F8C4325D69F3B006B2BFF /* Assets.xcassets in Resources */,
 				150F8C4125D69F3A006B2BFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1533AFEB25DBED8E0017D2C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,7 +258,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1533AFE925DBED8E0017D2C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1533AFFC25DBEDA80017D2C6 /* MysecretFm.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1533AFF325DBED8E0017D2C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1533AFEC25DBED8E0017D2C6 /* SecretFm */;
+			targetProxy = 1533AFF225DBED8E0017D2C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		150F8C3F25D69F3A006B2BFF /* Main.storyboard */ = {
@@ -296,6 +415,7 @@
 		150F8C4B25D69F3B006B2BFF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -314,6 +434,7 @@
 		150F8C4C25D69F3B006B2BFF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -326,6 +447,63 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1533AFF725DBED8E0017D2C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SecretFm/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.admin.SecretFm;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1533AFF825DBED8E0017D2C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SecretFm/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.admin.SecretFm;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -346,6 +524,15 @@
 			buildConfigurations = (
 				150F8C4B25D69F3B006B2BFF /* Debug */,
 				150F8C4C25D69F3B006B2BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1533AFF625DBED8E0017D2C6 /* Build configuration list for PBXNativeTarget "SecretFm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1533AFF725DBED8E0017D2C6 /* Debug */,
+				1533AFF825DBED8E0017D2C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

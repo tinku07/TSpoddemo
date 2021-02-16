@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SecretFm
 class ViewController: UIViewController {
     var obj = TSpoddemo()
     
@@ -20,7 +21,19 @@ class ViewController: UIViewController {
         let result  = obj.add(a: 1, b: 2)
         debugPrint("\(result)")
         
+       
+        
+//        let manager = Secretmanager(key:"12345")
+//         let secret = manager.readSecret()
+//        if secret != "error" {
+//            print("The secret is:\(secret)")
+//
+//        }else{
+//            print("Failed to secret ")
+//        }
     }
+        
+    
 
 
 }
