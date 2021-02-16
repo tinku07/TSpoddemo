@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
     
     s.name                    = 'TSpoddemo'
-    s.version                 = '0.4.2'
+    s.version                 = '0.4.3'
     s.summary                 = 'Myfirst pod app'
     s.homepage                = 'https://github.com/tinku07/TSpoddemo'
     s.author                  = { 'tinku07' => 'tinku.codebuzzer@gmail.com' }
